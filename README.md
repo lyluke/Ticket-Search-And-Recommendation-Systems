@@ -22,10 +22,10 @@
    * Logic tier: Java
 - Local and remote development environment
 
-![local environment](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/local.png)
+![local environment](https://github.com/lyluke/A-Event-Search-and-Ticket-Recommendation-System/blob/master/img_font_icon_sources/doc/local.png)
 > Local development environment
 
-![remote environment](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/remote.png)
+![remote environment](https://github.com/lyluke/A-Event-Search-and-Ticket-Recommendation-System/blob/master/img_font_icon_sources/doc/remote.png)
 > Remote development environment
 
 ## API Design
