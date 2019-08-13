@@ -57,7 +57,7 @@
       * Set a new user into users table/collection in database
       * return response
 
-![APIs design](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/APIs.png)
+![APIs design](https://github.com/lyluke/A-Event-Search-and-Ticket-Recommendation-System/blob/master/img_font_icon_sources/doc/APIs.png)
 > APIs design in logic tier
 
 - TicketMasterAPI
@@ -66,7 +66,7 @@
    * **Content-based Recommendation**: find categories from item profile from a user’s favorite, and recommend the similar items with same categories.
    * Present recommended items with ranking based on distance (geolocation of users)
 
-![recommendation algorithm](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/recommendation.png)
+![recommendation algorithm](https://github.com/lyluke/A-Event-Search-and-Ticket-Recommendation-System/blob/master/img_font_icon_sources/doc/remote.png)
 > Process of recommend request
 
 ## Database Design
@@ -76,7 +76,7 @@
    * **category** - store item-category relationship
    * **history** - store user favorite history
 
-![mysql](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/mysql.png)
+![mysql](https://github.com/lyluke/A-Event-Search-and-Ticket-Recommendation-System/blob/master/img_font_icon_sources/doc/mysql.png)
 > MySQL database design
 
 - MongoDB
@@ -98,7 +98,7 @@
 - Online (**ElasticSearch**, **Logstash**, **Kibana**)
    * Use Logstash to fetch log (in NoSQL-like form), then store data in ElasticSearch, finally use Kibana to analyze the data in ElasticSearch, getting some tables and graphs like APIs use, request status, geolocation of visitors, etc
 
-![ELK analysis](https://raw.githubusercontent.com/Wangxh329/EventRecommendation/master/img_font_icon_sources/doc/elk.png)
+![ELK analysis](https://github.com/lyluke/A-Event-Search-and-Ticket-Recommendation-System/blob/master/img_font_icon_sources/doc/elk.png)
 > Remote development environment
 
 - Offline (**MapReduce in MongoDB**)
